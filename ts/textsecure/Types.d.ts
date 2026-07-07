@@ -324,7 +324,7 @@ export type CallbackResultType = {
   contentHint?: number;
   contentProto?: Uint8Array<ArrayBuffer>;
   timestamp?: number;
-  recipients?: Record<ServiceIdString, Array<number>>;
+  recipients?: Record<ServiceIdString, ReadonlyArray<number>>;
   urgent?: boolean;
   hasPniSignatureMessage?: boolean;
 };

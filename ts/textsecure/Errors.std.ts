@@ -187,7 +187,7 @@ export class SendMessageProtoError extends Error implements CallbackResultType {
 
   public readonly timestamp?: number;
 
-  public readonly recipients?: Record<ServiceIdString, Array<number>>;
+  public readonly recipients?: Record<ServiceIdString, ReadonlyArray<number>>;
 
   public readonly sendIsNotFinal?: boolean;
 

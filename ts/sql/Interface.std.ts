@@ -298,7 +298,7 @@ export type SentProtoDBType = {
 export type SentProtoWithMessageIdsType = SentProtoType & {
   messageIds: Array<string>;
 };
-export type SentRecipientsType = Record<ServiceIdString, Array<number>>;
+export type SentRecipientsType = Record<ServiceIdString, ReadonlyArray<number>>;
 export type SentMessagesType = Array<string>;
 
 // These two are for test only
@@ -1190,7 +1190,7 @@ type WritableInterface = {
   insertProtoRecipients: (options: {
     id: number;
     recipientServiceId: ServiceIdString;
-    deviceIds: Array<number>;
+    deviceIds: ReadonlyArray<number>;
   }) => void;
   deleteSentProtoRecipient: (
     options:

@@ -20254,7 +20254,7 @@ For more information on this, and how to apply and follow the GNU AGPL, see
 
 ```
 
-## libsignal-account-keys 0.1.0, libsignal-core 0.1.0, libsignal-debug 0.89.2, mrp 2.69.6, protobuf 2.69.6, ringrtc 2.69.6, regex-aot 0.1.0, partial-default-derive 0.1.0, partial-default 0.1.0
+## libsignal-account-keys 0.1.0, libsignal-core 0.1.0, libsignal-debug 0.89.2, mrp 2.69.7, protobuf 2.69.7, ringrtc 2.69.7, regex-aot 0.1.0, partial-default-derive 0.1.0, partial-default 0.1.0
 
 ```
 GNU AFFERO GENERAL PUBLIC LICENSE
@@ -26253,7 +26253,9 @@ SOFTWARE.
 NASM is now licensed under the 2-clause BSD license, also known as the
 simplified BSD license.
 
-    Copyright 1996-2010 the NASM Authors - All rights reserved.
+SPDX-License-Identifier: BSD-2-Clause
+
+    Copyright 1996-2025 the NASM Authors - All rights reserved.
 
     Redistribution and use in source and binary forms, with or without
     modification, are permitted provided that the following
@@ -26523,6 +26525,26 @@ Files: src/trace_processor/perfetto_sql/stdlib/chromium/*, protos/third_party/ch
    THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
    (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
    OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+------------------
+
+Files: src/trace_processor/perfetto_sql/syntaqlite/syntaqlite_perfetto.{c, h}
+
+   Copyright 2025 The syntaqlite Authors. All rights reserved.
+
+   Machine-generated amalgamation of syntaqlite runtime + Perfetto dialect
+   sources (https://github.com/LalitMaganti/syntaqlite). Portions derive
+   from SQLite's public-domain `parse.y` grammar.
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
 
 
 ------------------

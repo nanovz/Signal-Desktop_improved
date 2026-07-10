@@ -2,7 +2,12 @@
 <!-- SPDX-License-Identifier: AGPL-3.0-only -->
 
 # Signal Desktop Improved
-All this is does is make your screen share 60 FPS.
+All this is does is make your screen share 60 FPS. 
+This is currently a personal hacky version. 
+
+## Updating the improved client
+Currently when you boot up the app there is a "update" notice that appears. I assume this just pulls the official client so you shouldn't do that. 
+You can update via the releases page on here and launch it directly.
 
 # Signal Desktop
 

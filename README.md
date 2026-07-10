@@ -9,7 +9,7 @@ This is currently a personal hacky version.
 Currently when you boot up the app there is a "update" notice that appears. I assume this just pulls the official client so you shouldn't do that. 
 You can update via the releases page on here and launch it directly.
 
-## Donate to Signal
+## Donate to the original Signal project
 
 You can donate to Signal from inside Signal apps (Desktop, Android, or iOS), or via the web here: [Signal Technology Foundation](https://signal.org/donate). Signal is an independent 501c3 nonprofit.
 

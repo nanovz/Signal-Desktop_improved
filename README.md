@@ -9,29 +9,6 @@ This is currently a personal hacky version.
 Currently when you boot up the app there is a "update" notice that appears. I assume this just pulls the official client so you shouldn't do that. 
 You can update via the releases page on here and launch it directly.
 
-# Signal Desktop
-
-Signal Desktop links with Signal on [Android](https://github.com/signalapp/Signal-Android) or [iOS](https://github.com/signalapp/Signal-iOS) and lets you message from your Windows, macOS, and Linux computers.
-
-[Install the production version](https://signal.org/download/) or help us out by [installing the beta version](https://support.signal.org/hc/articles/360007318471-Signal-Beta).
-
-## Got a question?
-
-You can find answers to a number of frequently asked questions on our [support site](https://support.signal.org/).
-The [community forum](https://community.signalusers.org/) is another good place for questions.
-
-## Found a Bug?
-
-Please search for any [existing issues](https://github.com/signalapp/Signal-Desktop/issues) that describe your bug in order to avoid duplicate submissions.
-
-## Have a feature request, question, comment?
-
-Please use our community forum: https://community.signalusers.org/
-
-## Contributing to the project
-
-Please see [CONTRIBUTING.md](https://github.com/signalapp/Signal-Desktop/blob/main/CONTRIBUTING.md). There are lots of ways to contribute - many that don't involve code!
-
 ## Donate to Signal
 
 You can donate to Signal from inside Signal apps (Desktop, Android, or iOS), or via the web here: [Signal Technology Foundation](https://signal.org/donate). Signal is an independent 501c3 nonprofit.
